@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="optionbar">
+      <div class="buttons"></div>
+      <div id="gridoptions">
+        <select class="options">
+          <option value="16">16 x 16</option>
+          <option value="32">32 x 32</option>
+          <option value="48">48 x 48</option>
+          <option value="64">64 x 64</option>
+          <option value="80">80 x 80</option>
+          <option value="96">96 x 96</option>
+        </select>
+        <br>
+        <button onclick="getOption()" value="Submit">Change Board</button>
+      </div>
+    </div>
+    <div class="mainbody">
+      <div class="title">Etch-a-Sketch</div>
+      <div id="gridcontainer"></div>
+      <div class="bottom">
+      <div class="currentsize">16 x 16</div>
+      <div class="currentsetting"></div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>

@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  font-family: monospace;
+  color: #259e35;
+}
+
+.mainbody {
+  padding-left: 30px;
+}
+
+#gridcontainer {
+  display: grid;
+  width: 600px;
+  height: 600px;
+}
+
+button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  font-family: monospace;
+  color: blue;
+  font-size: 10px;
+}
+
+.optionbar {
+  display: flex;
+  flex-direction: column;
+  margin-right: 250px;
+  padding-top: 200px;
+  gap: 20px;
+  border-right: 30px;
+  width: 120px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+button:hover {
+  color: #eba31e;
+  text-indent: 3px;
+}
+
+.currentsize,
+.currentsetting,
+.title {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gridoptions {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
