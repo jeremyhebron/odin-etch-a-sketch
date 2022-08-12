@@ -26,6 +26,7 @@ function getOption() {
   output = selectElement.value;
   createDivs(output);
   currentBoard.textContent = `${output} x ${output}`;
+  currentSetting.textContent = "";
 }
 
 function createDivs(value) {
